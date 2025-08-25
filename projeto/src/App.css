@@ -1,65 +1,76 @@
 /* App.css */
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #e8f5e9; /* verde clarinho */
-  margin: 0;
-  padding: 0;
-}
-
+/* Do seu arquivo: container e títulos */
 .App {
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 30px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(15, 56, 16, 0.2); /* sombra verde suave */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
 }
 
-h1, h2 {
-  text-align: center;
-  color: #4e7a50; /* verde escuro suave */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
 }
 
+h2 {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  width: 80%;
+}
+
+/* Do seu arquivo: estilos da lista */
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+ol li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+ol li:last-child {
+  border-bottom: none;
+}
+
+/* Do seu arquivo: estilos de input e botão */
 input[type="text"] {
-  width: 100%;
-  padding: 12px;
-  margin: 12px 0 20px;
-  border: 1px solid #ceeecf;
-  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
   font-size: 16px;
-  background-color: #f1f8f2;
-  transition: border 0.3s ease;
-}
-
-input[type="text"]:focus {
-  border: 1px solid #66bb6a;
-  outline: none;
 }
 
 button {
-  width: 100%;
-  padding: 12px;
-  background-color: #1d7922;
+  background-color: #007bff;
   color: white;
   border: none;
-  font-size: 16px;
-  border-radius: 6px;
+  padding: 10px 15px;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #57a05b;
+  background-color: #0056b3;
 }
 
-ol {
-  padding-left: 20px;
-}
-
-li {
-  font-size: 16px;
-  padding: 8px 0;
-  border-bottom: 1px solid #e0e0e0;
-  color: #2e7d32;
+.logo {
+  width: 200px;
+  margin-bottom: -15px;
 }
