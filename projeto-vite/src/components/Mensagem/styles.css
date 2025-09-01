@@ -1,0 +1,11 @@
+/* src\components\Mensagem\styles.css */
+
+.mensagem  h1 {
+    color: rgb(199, 6, 6);
+    margin: 10px 0;
+}
+
+.mensagem p{
+    color: #000000;
+    margin: 10px 0;
+}

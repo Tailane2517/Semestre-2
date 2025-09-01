@@ -1,0 +1,14 @@
+/* src\components\Infocurso\style.css */
+
+.infoCurso  h1 {
+    color: rgb(6, 199, 99);
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.infoCurso p{
+    color: #000000;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
