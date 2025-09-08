@@ -1,0 +1,137 @@
+/* src\components\TimeVitoria\style.css */
+
+/* Reset e fonte base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container principal */
+.time-vitoria {
+  max-width: 540px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border-left: 8px solid #ff0000;
+  transition: all 0.3s ease;
+}
+
+/* Títulos */
+.time-vitoria h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #d40000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.time-vitoria h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #d40000;
+  border-bottom: 2px solid #ff0000;
+  padding-bottom: 8px;
+}
+
+/* Formulário */
+form > div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+input[type="text"],
+input[type="numero"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  color: #000;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #ff0000;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Botão */
+button[type="submit"] {
+  width: 100%;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #c40000;
+}
+
+/* Lista de jogadores */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+  color: #222;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Linha separadora */
+hr {
+  margin: 30px 0;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .time-vitoria {
+    padding: 24px 20px;
+  }
+
+  .time-vitoria h2 {
+    font-size: 24px;
+  }
+
+  button[type="submit"] {
+    font-size: 15px;
+    padding: 12px;
+  }
+}
