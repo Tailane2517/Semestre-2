@@ -1,0 +1,112 @@
+/* src\components\CadastrarUsuario\index.js */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #fdfdfe;
+    color: #2a2a2a;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Container principal */
+.info-cliente {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+/* Logo */
+.cliente-img {
+    display: block;
+    margin: 0 auto 24px auto;
+    max-width: 160px;
+    height: auto;
+}
+
+/* Títulos */
+.info-cliente h2,
+.info-cliente h3 {
+    text-align: center;
+    color: #654ea3; /* Roxo suave */
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form > div {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #4a4a4a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #dcdce6;
+    border-radius: 10px;
+    background-color: #f7faff;
+    color:#000;
+    transition: border-color 0.2s ease;
+}
+
+input:focus {
+    border-color: #000000; /* Ciano */
+    outline: none;
+}
+
+/* Botão */
+button[type="submit"] {
+    width: 100%;
+    background: linear-gradient(90deg, #89f0ff, #b198ff, #ff4fa3);
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+/* Lista de clientes */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+    color: #333;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Separador */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ececec;
+    margin: 24px 0;
+}
